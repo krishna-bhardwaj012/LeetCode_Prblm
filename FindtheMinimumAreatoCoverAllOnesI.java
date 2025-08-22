@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class FindtheMinimumAreatoCoverAllOnesI {
     static class Solution {
@@ -19,7 +18,7 @@ public class FindtheMinimumAreatoCoverAllOnesI {
                 }
             }
 
-            // No 1's found
+            // no 1's in grid
             if (maxRow == -1) return 0;
 
             return (maxRow - minRow + 1) * (maxCol - minCol + 1);
@@ -35,12 +34,12 @@ public class FindtheMinimumAreatoCoverAllOnesI {
             {0,1,0,0},
             {0,0,0,0}
         };
-        System.out.println(sol.minimumArea(grid1)); // Output: 4
+        System.out.println(sol.minimumArea(grid1)); // Expected: 4
 
         int[][] grid2 = {
             {0,0},
             {0,0}
         };
-        System.out.println(sol.minimumArea(grid2)); // Output: 0
+        System.out.println(sol.minimumArea(grid2)); // Expected: 0
     }
 }
