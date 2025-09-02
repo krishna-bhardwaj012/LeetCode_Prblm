@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 07bf6dc (Added LeetCode_Prblm folder with solutions)
 public class IntegerSumOfPowers {
     public static void main(String[] args) {
         int n = 10;
@@ -27,6 +30,7 @@ class Solution {
         return dp[n];
     }
 }
+<<<<<<< HEAD
 =======
 // public class IntegerSumOfPowers {
 //     public static void main(String[] args) {
@@ -92,3 +96,5 @@ public class IntegerSumOfPowers {
     }
 }
 >>>>>>> b5f344a (Added Game.java file)
+=======
+>>>>>>> 07bf6dc (Added LeetCode_Prblm folder with solutions)
